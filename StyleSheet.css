@@ -1,0 +1,627 @@
+#subscribe-footer{
+  width: auto;
+  height: auto;
+  background: none repeat scroll 0% 0% rgb(225, 225, 225);
+}
+#subscribe-footer .container{
+  width: 97%;
+  margin: 5px auto;
+}
+#subscribe-footer .left {
+  float: left;
+  width: 55%;
+  text-align: left;
+}
+#subscribe-footer #right{
+  float: right;
+  width: auto;
+  text-align: right;
+}
+#subscribe-footer i {
+  font-size: 90px;
+  float: left;
+  margin-right: 20px;
+  margin-left: auto;
+  margin-top:5px;
+  color: rgb(179, 252, 235);
+}
+#subscribe-footer i:hover{
+  color:white;
+  -webkit-transition: all .8s ease 0;
+  -moz-transition: all .8s ease;
+  -ms-transition: all .8s ease 0;
+  -o-transition: all .8s ease 0;
+  transition: all .8s ease 0;
+}
+#subscribe-footer h3{
+  color: rgb(0,0,0);
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-family: open sans;
+}
+#subscribe-footer p{
+  margin: 0px;
+  line-height: 20px;
+  color: rgb(0,0,0);
+  font-weight: 300;
+  font-family: open sans;
+  font-size: 13.6px;
+}
+#subscribe-footer i.icon-chevron-right{
+  color:rgb(179, 252, 235);
+  font-size:97px;
+  z-index:-999;
+}
+#subscribe-footer form {
+  float: auto;
+  margin: 28px;
+}
+#subscribe-footer form .inptfld {
+  font-family: Open Sans;
+  outline: medium none;
+  border: medium none;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 3px;
+  width: 250px;
+}
+#subscribe-footer form .subscribebtn {
+  font-famiy: open sans;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  color:#fff;
+  background: #34495e;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#subscribe-footer form .subscribebtn:hover {
+  background: #233140;
+  -webkit-transition: all .6s ease 0;
+  -moz-transition: all .6s ease;
+  -ms-transition: all .6s ease 0;
+  -o-transition: all .6s ease 0;
+  transition: all .6s ease 0;
+}
+
+@media screen and(max-width: 600px) {
+  .#subscribe-footer {
+    width: 100%;
+  }
+}
+.btn:hover {
+  background-color: #000;
+  border:2px solid #e4cbd1;
+  color: #fff;
+}
+
+.borderbtn {
+  background-color: #EFF2FD;
+  border: none;
+  color: #092E4C ;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 1.1vmax;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.borderbtn:hover {
+  background-color: #000;
+  border:2px solid #e4cbd1;
+  color: #fff;
+}
+
+/*  For main header, "MCO: An Insight on the New Normal"
+  With KLCC background image */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.font-h1 {
+  font-family: "Century Gothic";
+  text-shadow: 2px 2px #000000;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2.7vmax;
+  color: white;
+}
+
+.font-h1caption {
+  font-family: "Century Gothic";
+  text-shadow: 2px 2px #000;
+  font-stretch: expanded;
+  font-style: italic;
+  font-size: 1.2vmax;
+  color: white;
+}
+
+.container-h1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container-h1caption {
+  text-align: center;
+  position: relative;
+  max-width: 39vw;
+  margin-top: 10vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background: rgba(192,192,192,0.3);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+}
+
+
+/*  For header after main header, "Cancellation of Gatherings"
+    With 3 images under it */
+.container-h2 {
+  background-color: transparent;
+  height: 35vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper-h2 {
+  perspective: 800px;
+  -webkit-perspective: 800px;
+}
+
+.img-h2 {
+  height: 250px;
+  width: 260px; /* The actual image displayed will be 250 x 260 above the captions */
+  border:10px solid #b7d7e8;
+  position: relative;
+}
+
+.caption-img-h2 {
+  background-color: #b7d7e8;
+  text-align: center;
+  height: 60px;
+  width: 260px;
+  font-size: 20px;
+  color: black;
+  font-family: Calibri, sans-serif;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-top: 15px;
+  transform-style: preserve-3d;
+  transform: rotateX(-180deg);
+  transform-origin: top; /* so that it looks like it came out frm top */
+  z-index: -1;
+  position: relative;
+  transition: 0.5s;
+  backface-visibility: hidden;
+}
+
+.wrapper-h2:hover .caption-img-h2 {
+  transform: rotateX(0deg);
+}
+
+.one {
+  background: url(wesak3.jpg);
+  background-position: 20% 5%; /* Adjust this value if you want to choose where the picture is at */
+  background-size: 250px 300px;
+  opacity: 0.5;
+}
+
+.two {
+  background: url(jumaat1.jpg);
+  background-position: 0% 50%; /* Adjust this value if you want to choose where the picture is at */
+  background-size: 250px 300px;
+  opacity: 0.5;
+}
+
+.three {
+  background: url(nikah1.jpg);
+  background-position: 0% 50%; /* Adjust this value if you want to choose where the picture is at */
+  background-size: 250px 300px;
+  opacity: 0.5;
+}
+
+.four {
+  background: url(socmed.png);
+  background-position: 35% 20%; /* Adjust this value if you want to choose where the picture is at */
+  background-size: 250px 300px;
+  opacity: 0.5;
+}
+
+.five {
+  background: url(telecom.jpg);
+  background-position: 35% 20%; /* Adjust this value if you want to choose where the picture is at */
+  background-size: 250px 300px;
+  opacity: 0.5;
+}
+
+.six {
+  background: url(ecommerce.png);
+  background-position: 35% 20%; /* Adjust this value if you want to choose where the picture is at */
+  background-size: 250px 300px;
+  opacity: 0.5;
+}
+
+.one:hover {
+  opacity: 1.0;
+}
+
+.two:hover {
+  opacity: 1.0;
+}
+
+.three:hover {
+  opacity: 1.0;
+}
+
+.four:hover {
+  opacity: 1.0;
+}
+
+.five:hover {
+  opacity: 1.0;
+}
+
+.six:hover {
+  opacity: 1.0;
+}
+
+
+/* After h2 */
+.text-v1 {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(wesak6.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  display: flex;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  color: #fff;
+  font-size: 2vw;
+}
+
+.text-v2 {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(jumaat5.jpg);
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  display: flex;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  color: #fff;
+  font-size: 2vw;
+}
+
+.text-v3 {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(nikah4.jpg) 150px 150px;
+  background-size: cover;
+  background-origin: padding-box;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  display: flex;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  color: #fff;
+}
+
+.text-title-v1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28.4vmin;
+  text-transform: uppercase;
+  /*text-align: center;*/
+  font-weight: 900;
+  letter-spacing: 0.1vw;
+  margin: 0;
+  line-height: 28.5vmin;
+  height: 28.5vmin;
+  /* lol kena ada do height ni, else you'll cry @ aligning. 230px*/
+  background: white;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.text-title-v2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25.5vmin;
+  text-transform: uppercase;
+  /*text-align: center;*/
+  font-weight: 800;
+  letter-spacing: 0.1vw;
+  margin: 0;
+  line-height: 24vmin;
+  height: 22.6vmin;
+  background: black;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.filter {
+  -webkit-filter: grayscale(100%);
+  -webkit-filter: opacity(0.4);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 1.45vh;
+  left: 0.75vw;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0.45vh;
+  right: 1.55vw;
+}
+
+.top-right {
+  position: absolute;
+  top: 1.5vh;
+  right: 3vw;
+  width: 30vw;
+}
+
+.top-left {
+  position: absolute;
+  top: 1.5vh;
+  left: 3vw;
+  width: 30vw;
+}
+
+
+
+
+/* Work in progress
+   For "Read Article" buttons
+ */
+.btn-container {
+  position: absolute;
+  left: 14.5vw;
+  transform: translate(-50%, -50%);
+}
+
+.btn-article {
+  border: 1px solid #b7d7e8;
+  text-transform: uppercase;
+  background: none;
+  padding: 10px 20px;
+  font-size: 2.8vmin;
+  font-family: Calibri, sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn4 {
+  color: #fff;
+}
+
+.btn4:hover {
+  color: #b7d7e8;
+}
+
+.btn-article::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #b7d7e8;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.btn4::before {
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.btn4::before {
+  height: 180%;
+}
+
+.btn4:hover::before {
+  height: 0%;
+}
+
+
+.btn-article2 {
+  border: 1px solid #233140;
+  text-transform: uppercase;
+  background: none;
+  padding: 10px 20px;
+  font-size: 2.8vmin;
+  font-family: Calibri, sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn3 {
+  color: #b7d7e8;
+}
+
+.btn3:hover {
+  color: #233140;
+}
+
+.btn-article2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #233140;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.btn3::before {
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.btn3::before {
+  height: 180%;
+}
+
+.btn3:hover::before {
+  height: 0%;
+}
+
+a:visited {
+  color: #b2b2b2;
+}
+
+
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+html,body{
+  width:100%;
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+team {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+.team-section {
+  /*background: #EFF2FD;*/
+  /*background: #D9F1F1;*/
+  background: #B6E3E9;
+  text-align: center;
+}
+
+.inner-width {
+  max-width: 1500px;
+  margin: auto;
+  padding: 40px;
+  color: #333;
+  overflow: hidden;
+}
+
+.team-section h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+}
+
+.pe {
+  float: left;
+  width: calc(100% / 4);
+  overflow: hidden;
+  padding: 40px 0;
+  transition: 0.4s;
+}
+
+.pe:hover{
+  /*background: #E9D8FF;*/
+  /*background: #B6E3E9;*/
+  background: #74C2CA;
+}
+
+.pe img {
+  width: 250px;
+  height: 300px;
+}
+
+.p-name {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  margin: 16px 0;
+}
+
+.p-desc {
+  color: #544169;
+  text-transform: uppercase;
+}
+
+.p-matric {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  margin: 16px 0;
+}
+
+.p-sm {
+  margin-top: 12px;
+}
+
+.p-sm a{
+  margin: 0 4px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: 0.6s;
+}
+
+.p-sm a:hover{
+  transform: scale(1.3);
+}
+
+.p-sm a i{
+  color: #333;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 600px){
+  .pe{
+    width: 100%;
+  }
+}
+body, html {
+  height: 100%;
+  width:100%;
+}
+
+* {
+  box-sizing: border-box;
+
+}
